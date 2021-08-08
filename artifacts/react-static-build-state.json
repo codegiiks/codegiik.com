@@ -1,0 +1,62 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "/home/peppe/prj/codegiiks.github.io/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/home/peppe/prj/codegiiks.github.io/src/pages"
+      }
+    ],
+    "/home/peppe/prj/codegiiks.github.io/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/home/peppe/prj/codegiiks.github.io/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/home/peppe/prj/codegiiks.github.io"
+  ],
+  "paths": {
+    "ROOT": "/home/peppe/prj/codegiiks.github.io",
+    "SRC": "/home/peppe/prj/codegiiks.github.io/src",
+    "DIST": "/home/peppe/prj/codegiiks.github.io/dist",
+    "ASSETS": "/home/peppe/prj/codegiiks.github.io/dist",
+    "PLUGINS": "/home/peppe/prj/codegiiks.github.io/plugins",
+    "TEMP": "/home/peppe/prj/codegiiks.github.io/tmp",
+    "ARTIFACTS": "/home/peppe/prj/codegiiks.github.io/artifacts",
+    "PUBLIC": "/home/peppe/prj/codegiiks.github.io/public",
+    "NODE_MODULES": "/home/peppe/prj/codegiiks.github.io/node_modules",
+    "EXCLUDE_MODULES": "/home/peppe/prj/codegiiks.github.io/node_modules",
+    "PACKAGE": "/home/peppe/prj/codegiiks.github.io/package.json",
+    "HTML_TEMPLATE": "/home/peppe/prj/codegiiks.github.io/dist/index.html",
+    "STATIC_DATA": "/home/peppe/prj/codegiiks.github.io/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
