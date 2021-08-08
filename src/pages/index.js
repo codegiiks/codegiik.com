@@ -1,7 +1,15 @@
 import React from 'react'
 
+import Logo from '../components/Logo'
+
 export default () => (
-  <div style={{ textAlign: 'center' }}>
-    <h1>Welcome to React-Static</h1>
+  <div style={{
+    height: '100vh',
+    width: '100vw',
+    display: 'flex',
+    alignItems: 'center',
+    placeContent: 'center'
+  }}>
+    <Logo></Logo>
   </div>
 )
