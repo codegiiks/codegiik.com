@@ -16,29 +16,29 @@
   "entry": "index.js",
   "plugins": [
     [
-      "/home/peppe/prj/codegiiks.github.io/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      "/home/peppe/prj/codegiik.com/node_modules/react-static-plugin-source-filesystem/node.api.js",
       {
-        "location": "/home/peppe/prj/codegiiks.github.io/src/pages"
+        "location": "/home/peppe/prj/codegiik.com/src/pages"
       }
     ],
-    "/home/peppe/prj/codegiiks.github.io/node_modules/react-static-plugin-reach-router/browser.api.js",
-    "/home/peppe/prj/codegiiks.github.io/node_modules/react-static-plugin-sitemap/dist/node.api.js",
-    "/home/peppe/prj/codegiiks.github.io"
+    "/home/peppe/prj/codegiik.com/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/home/peppe/prj/codegiik.com/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/home/peppe/prj/codegiik.com"
   ],
   "paths": {
-    "ROOT": "/home/peppe/prj/codegiiks.github.io",
-    "SRC": "/home/peppe/prj/codegiiks.github.io/src",
-    "DIST": "/home/peppe/prj/codegiiks.github.io/dist",
-    "ASSETS": "/home/peppe/prj/codegiiks.github.io/dist",
-    "PLUGINS": "/home/peppe/prj/codegiiks.github.io/plugins",
-    "TEMP": "/home/peppe/prj/codegiiks.github.io/tmp",
-    "ARTIFACTS": "/home/peppe/prj/codegiiks.github.io/artifacts",
-    "PUBLIC": "/home/peppe/prj/codegiiks.github.io/public",
-    "NODE_MODULES": "/home/peppe/prj/codegiiks.github.io/node_modules",
-    "EXCLUDE_MODULES": "/home/peppe/prj/codegiiks.github.io/node_modules",
-    "PACKAGE": "/home/peppe/prj/codegiiks.github.io/package.json",
-    "HTML_TEMPLATE": "/home/peppe/prj/codegiiks.github.io/dist/index.html",
-    "STATIC_DATA": "/home/peppe/prj/codegiiks.github.io/dist/staticData"
+    "ROOT": "/home/peppe/prj/codegiik.com",
+    "SRC": "/home/peppe/prj/codegiik.com/src",
+    "DIST": "/home/peppe/prj/codegiik.com/dist",
+    "ASSETS": "/home/peppe/prj/codegiik.com/dist",
+    "PLUGINS": "/home/peppe/prj/codegiik.com/plugins",
+    "TEMP": "/home/peppe/prj/codegiik.com/tmp",
+    "ARTIFACTS": "/home/peppe/prj/codegiik.com/artifacts",
+    "PUBLIC": "/home/peppe/prj/codegiik.com/public",
+    "NODE_MODULES": "/home/peppe/prj/codegiik.com/node_modules",
+    "EXCLUDE_MODULES": "/home/peppe/prj/codegiik.com/node_modules",
+    "PACKAGE": "/home/peppe/prj/codegiik.com/package.json",
+    "HTML_TEMPLATE": "/home/peppe/prj/codegiik.com/dist/index.html",
+    "STATIC_DATA": "/home/peppe/prj/codegiik.com/dist/staticData"
   },
   "siteRoot": "/",
   "basePath": "",
