@@ -2,7 +2,7 @@ module.exports = {
     apps: [{
         name: 'codegiik',
         script: 'node_modules/.bin/next',
-        args: 'start -p 3000',
+        args: 'start -p 3001',
         cwd: '/var/www/codegiik',
         watch: './.next'
     }],
